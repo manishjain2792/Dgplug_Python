@@ -20,18 +20,20 @@ Explanation
 -----------
 At first open the file **.proc/mounts** using "open" command. Then i used "file.read()" command to read the file and use **print** to print the content of that file. At last i closed that file using "file.close()" command.
 
-The code is `here <https://github.com/manishjain2792/dgplug_python/mount/mount.py>`
+The code is `here <https://github.com/manishjain2792/dgplug_python/mount/mount.py>`_
 
-How to execute:
+How to execute
 ---------------
 ::
-    $ python mount.py
+
+   1. $ python mount.py
 
 or
 
 ::
-    $ chmod +x mount.py
-    $ ./mount.py
+
+   1. $ chmod +x mount.py
+   2. $ ./mount.py
 
 
 
