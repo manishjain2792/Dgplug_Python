@@ -1,0 +1,127 @@
+Presentation 1 - Exercises
+=================
+Exercise 0 - Hello world
+
+ServerSideExercises.sln
+HelloOwrldSXPMessage.cs
+-----------------
+
+Exercise 1 – creating custom SXP processor
+Create a custom SXP message processor that creates a new engineer and commits it to the Database, Using the server-side business API.
+
+ServerSideExercises.sln
+CustomEngineerCreate.cs
+-----------------
+
+Exercise 2 – Custom SXP processor
+Create a custom SXP processor to retrieve an Engineer using SXP object reference (ID or Name properties) and update the EngineerType of the Engineer based on the value passed in the SXP message. The response should return the updated Engineer object.
+
+ServerSideExercises.sln
+CustomEngineerUpdate.cs
+-----------------
+
+Exercise 3 – Custom SXP processor
+Create a custom SXP message processor that receives a message with a name of a Region and District. The Processor will return all the tasks that  their Region and District values match the values in the incoming message.
+
+ServerSideExercises.sln
+GetTasksFromDevClass.cs
+-----------------
+
+Presentation 2 - Exercises
+=================
+Exercise 4 - Server API
+On Task add, set the required skills & duration based on the task type
+
+ServerSideExercises.sln
+ServerEventUpdateTask.cs
+-----------------
+
+Server API – Exercise 5
+LateStart  Updates:
+When a Task is created check its DueDate if set then derive the LateStart  time by subtracting the Duration from DueDate
+When Task DueDate is modified then derive LateStart by subtracting the Duration from DueDate
+
+ServerSideExercises.sln
+GenericEventUpdateLateStart.cs
+-----------------
+
+Exercise 6
+Custom Service Lab, Implement GetResourceEx() in W6CustomService 
+
+CustomServiceLab.sln
+CustomService.cs
+-----------------
+
+Exercise 7
+‘CustomExposeSxpServiceLab’ solution, Add a new web operation called GetResourceSchedule
+
+ExposeSxpAsSeviceLab.sln
+CustomExposeSxpService.cs
+-----------------
+
+
+Presentation 3 - Exercises
+=================
+Exercise 1
+Create new action that displays “Hello Web Client” in  a MessageBox
+
+CSWC817Training.sln
+Hello.cs + HelloWorld.xaml + HelloWorld.xaml.cs
+
+Presentation 4 - Exercises
+=================
+Exercise 1
+	Step 1&2
+	Step 3
+	Step 4
+	Step 5
+
+CSWCTraining817Converted.sln
+EngineerAction.cs + EngineerWindow12.xaml + EngineerWindow12.xaml.cs (Step 1+2)
+ + SelectEngineerWindow.xaml + SelectEngineerWindow.xaml.cs (Step 3-5)
+-----------------
+
+Exercise 2 - Reading Settings
+
+CSWC817Training.sln
+ReadSetting.cs + SettingsWindow.xaml + SettingsWindow.xaml.cs
+-----------------
+
+Exercise 3 - Display engineer schedule
+
+CSWCTraining817Converted.sln
+EngineerAction.cs + SelectEngineerWindow.xaml + SelectEngineerWindow.xaml.cs
+-----------------
+
+Action - Exercise 2 - Removed
+
+Action - Exercise 3 - Removed
+-----------------
+
+Presentation 5 - Exercises
+=================
+Exercise 4 - Calling a Web Service
+Create an action to add to the task’s context menu which gets the available appointments within the next 8 hours for that task. 
+
+CSWC817Training.sln
+GetAppActions.cs and
+-----------------
+
+Presentation 6 - Exercises
+=================
+Forms
+
+CSWC817Training.FormEvents
+-----------------
+
+Formatters 
+
+CSWC817Training.FastTechnician
+CSWC817Training.OnTime
+-----------------
+
+Custom Panel 
+
+CSWC817Training.NAVsAssignment
+CSWC817Training.JeopardyList, CSWC817Training.JeopardyAction
+-----------------
